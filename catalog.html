@@ -9,7 +9,7 @@
 <body>
 
     <header class="main-header">
-        <section class="user-navigation">
+        <div class="user-navigation">
             <h2 class="visually-hidden">Навигация пользователя</h2>
             <a href="index.html" class="logo btn">Техномарт</a>
             <form class="search-nav" action="#">
@@ -18,8 +18,8 @@
             <div class="bookmarks">Закладки: <span class="total">0</span></div>
             <div class="cart not-empty">Корзина: <span class="total">10</span></div>
             <a href="#" class="buy">Оформить заказ</a>
-        </section>
-        <section class="info">
+        </div>
+        <div class="info">
             <h2 class="visually-hidden">Информация о контактах</h2>
             <div class="title">
                 <h1>Интернет-магазин строительных материалов и инструментов для ремонта.</h1>
@@ -36,7 +36,7 @@
                 <a href="#">Мои заказы</a>
                 <a href="#">Личный кабинет</a>
             </div>
-        </section>
+        </div>
         <nav class="main-navigation">
             <ul class="navigation">
                 <li><a href="#">Главная</a></li>
@@ -50,24 +50,22 @@
         </nav>
     </header>
     <main class="catalog-page">
+        <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="#">Каталог</a></li>
+            <li><a href="#">Инструмент</a></li>
+            <li>Перфораторы</li>
+        </ul>
+        <h2 class="catalog-title-header">Перфораторы</h2>
 
-        <section class="catalog-title">
-            <ul>
-                <li><a href="index.html">Главная</a></li>
-                <li><a href="#">Каталог</a></li>
-                <li><a href="#">Инструмент</a></li>
-                <li>Перфораторы</li>
-            </ul>
-            <h2 class="catalog-title-header">Перфораторы</h2>
+        <section class="filter">
+            <h2>Фильтр:</h2>
         </section>
 
-        <aside class="filter">
-            <h2>Фильтр:</h2>
-        </aside>
-
         <section class="shop">
+            <h2 class="visually-hidden">Каталог товаров</h2>
             <div class="sort-title">
-                <h2>Сортировка:</h2>
+                <p>Сортировка:</p>
                 <ul>
                     <li><a href="#" class="current>">По цене</a></li>
                     <li><a href="#">По типу</a></li>
@@ -200,34 +198,34 @@
                     </div>
                 </li>
             </ul>
-            <ul class="paginator">
-                <li><a class="paginator-item current">1</a></li>
-                <li><a class="paginator-item" href="">2</a></li>
-                <li><a class="paginator-item" href="">3</a></li>
-                <li><a class="paginator-item" href="">Следующая</a></li>
+            <ul class="pagination">
+                <li><a class="pagination-item current">1</a></li>
+                <li><a class="pagination-item" href="">2</a></li>
+                <li><a class="pagination-item" href="">3</a></li>
+                <li><a class="pagination-item" href="">Следующая</a></li>
             </ul>
         </section>
 
-        <article class="description">
+        <section class="description">
             <h2>Пара слов о перфораторах</h2>
             <p>Перфоратор - универсальный строительный инструмент. Предназначен для сверления и долбления отверстий в кирпиче, бетоне и камне.
                 Существуют электромеханические и пневматические перфораторы. Современные модеои могут выполнять функции дрели, шуруповерта и отбойного молотка.
                 В ассортиментном ряду есть выбор &laquo;трехрежимников&raquo;: в одном устройстве будут совмещены отбойный молоток и ударная дрель.</p>
-        </article>
+        </section>
 
     </main>
 
     <footer class="main-footer">
 
-        <section class="footer-address">
+        <div class="footer-address">
             <h2 class="visually-hidden">Адресный блок</h2>
             <a class="logo btn">Техномарт</a>
             <p>г.Санкт-Петербург, ул.Б.Конюшенная, д.19/8</p>
             <p>+7(812)555-05-55</p>
 
-        </section>
+        </div>
 
-        <section class="footer-navigation">
+        <div class="footer-navigation">
             <h2 class="visually-hidden">Навигация</h2>
             <nav class="footer-main-navigation">
                 <ul>
@@ -246,9 +244,9 @@
                     <li><a href="#">Доставка</a></li>
                 </ul>
             </nav>
-        </section>
+        </div>
 
-        <section class="footer-links">
+        <div class="footer-links">
             <h2 class="visually-hidden">Обраная связь</h2>
             <p class="copuright">&copy; 2010-2017 Компания &laquo;Техномарт&raquo; Все права защищены</p>
             <ul class="social">
@@ -258,7 +256,7 @@
             </ul>
             <p class="email">Обратная связь:<a href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a></p>
             <p class="academy">Разработано -<a href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru</a></p>
-        </section>
+        </div>
 
     </footer>
 
