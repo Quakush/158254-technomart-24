@@ -60,6 +60,50 @@
 
         <section class="filter">
             <h2>Фильтр:</h2>
+            <form class="filter-form" action="#" method="post">
+                <fieldset>
+                    <legend>Цена:</legend>
+                </fieldset>
+                <fieldset>
+                    <legend>Производители:</legend>
+                    <ul>
+                        <li class="filter-option">
+                            <input type="checkbox" class="visually-hidden filter-input filter-input-checkbox" id="bosch" checked>
+                            <label for="bosch">Bosch</label>
+                        </li>
+                        <li class="filter-option">
+                            <input type="checkbox" class="visually-hidden filter-input filter-input-checkbox" id="interskol">
+                            <label for="bosch">Интерскол</label>
+                        </li>
+                        <li class="filter-option">
+                            <input type="checkbox" class="visually-hidden filter-input filter-input-checkbox" id="makita" checked>
+                            <label for="bosch">Makita</label>
+                        </li>
+                        <li class="filter-option">
+                            <input type="checkbox" class="visually-hidden filter-input filter-input-checkbox" id="dewalt">
+                            <label for="bosch">Dewalt</label>
+                        </li>
+                        <li class="filter-option">
+                            <input type="checkbox" class="visually-hidden filter-input filter-input-checkbox" id="hitachi">
+                            <label for="bosch">Hitachi</label>
+                        </li>
+                    </ul>
+                </fieldset>
+                <fieldset>
+                    <legend>Питание:</legend>
+                    <ul>
+                        <li class="filter-option">
+                            <input type="radio" class="visually-hidden filter-input filter-input-radio" name="power-group" value="dc" id="dc" checked>
+                            <label for="dc">Аккумуляторные</label>
+                        </li>
+                        <li class="filter-option">
+                            <input type="radio" class="visually-hidden filter-input filter-input-radio" name="power-group" value="ac" id="ac">
+                            <label for="ac">Сетевые</label>
+                        </li>
+                    </ul>
+                </fieldset>
+                <button type="submit" class="filter-form-btn">Показать</button>
+            </form>
         </section>
 
         <section class="shop">
@@ -279,7 +323,14 @@
 
     </footer>
 
-    <section class="cart hidden"></section>
+    <section class="cart hidden">
+        <p class="cart-header">Товар добавлен в корзину!</p>
+        <div class="cart-footer">
+            <a href="#" class="cart-buy-btn">Оформить заказ</a>
+            <a href="#" class="cart-cont-btn">Продолжить покупки</a>
+        </div>
+        <button type="button" class="cart-close">X</button>
+    </section>
 
 </body>
 

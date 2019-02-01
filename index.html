@@ -12,8 +12,8 @@
         <div class="user-navigation">
             <h2 class="visually-hidden">Навигация пользователя</h2>
             <a class="logo btn">Техномарт</a>
-            <form class="search-nav" action="#">
-                <input type="search" class="search" name="search">
+            <form class="search-nav" action="#" method="post">
+                <input type="search" class="search" name="search" value="">
             </form>
             <div class="bookmarks">Закладки: <span class="total">0</span></div>
             <div class="cart">Корзина: <span class="total">0</span></div>
@@ -235,7 +235,7 @@
                 <h3>Контакты</h3>
                 <p>Вы можете забрать товар сами, заехав в наш офис.</p>
                 <div class="small-map">
-                    <img src="img/map_small.jpg" width="300" height="158" alt="Как добраться">
+                    <img src="img/map_small.jpg" width="300" height="158" alt="Офис компании по адресу ул. Большая Конюшенная 19/8, Санкт-Петербург">
                 </div>
                 <button type="button" class="write btn">Заблудились? Напишите нам!</button>
             </div>
@@ -289,7 +289,20 @@
     </footer>
 
     <section class="write-us hidden">
-
+        <form action="#" class="write-us-form" method="post">
+            <p class="write-us-form-item">
+                <label for="name">Ваше имя:</label>
+                <input type="text" id="name" name="name" placeholder="Имя Фамилия" value="">
+                <label for="email">Ваш e-mail:</label>
+                <input type="email" id="email" name="email" placeholder="email@example.com" value="">
+            </p>
+            <p class="write-us-form-item">
+                <label for="letter">Текст письма:</label>
+                <textarea id="letter" placeholder="В свободной форме"></textarea>
+            </p>
+            <button type="submit">Отправить</button>
+            <button type="button" class="close-btn">X</button>
+        </form>
     </section>
 
     <section class="map">
