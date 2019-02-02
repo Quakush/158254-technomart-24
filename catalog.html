@@ -12,8 +12,9 @@
         <div class="user-navigation">
             <h2 class="visually-hidden">Навигация пользователя</h2>
             <a href="index.html" class="logo btn">Техномарт</a>
-            <form class="search-nav" action="#">
-                <input type="search" class="search" name="search">
+            <form class="search-nav" action="#" method="GET">
+                <input type="search" class="search" name="search" value="" placeholder="поиск">
+                <button type="submit" class="search-btn">Найти</button>
             </form>
             <div class="bookmarks">Закладки: <span class="total">0</span></div>
             <div class="cart not-empty">Корзина: <span class="total">10</span></div>
@@ -60,7 +61,7 @@
 
         <section class="filter">
             <h2>Фильтр:</h2>
-            <form class="filter-form" action="#" method="post">
+            <form class="filter-form" action="#" method="GET">
                 <fieldset>
                     <legend>Цена:</legend>
                 </fieldset>
@@ -68,24 +69,24 @@
                     <legend>Производители:</legend>
                     <ul>
                         <li class="filter-option">
-                            <input type="checkbox" class="visually-hidden filter-input filter-input-checkbox" id="bosch" checked>
+                            <input type="checkbox" class="visually-hidden filter-input filter-input-checkbox" name="bosch" id="bosch" checked>
                             <label for="bosch">Bosch</label>
                         </li>
                         <li class="filter-option">
-                            <input type="checkbox" class="visually-hidden filter-input filter-input-checkbox" id="interskol">
-                            <label for="bosch">Интерскол</label>
+                            <input type="checkbox" class="visually-hidden filter-input filter-input-checkbox" name="interskol" id="interskol">
+                            <label for="interskol">Интерскол</label>
                         </li>
                         <li class="filter-option">
-                            <input type="checkbox" class="visually-hidden filter-input filter-input-checkbox" id="makita" checked>
-                            <label for="bosch">Makita</label>
+                            <input type="checkbox" class="visually-hidden filter-input filter-input-checkbox" name="makita" id="makita" checked>
+                            <label for="makita">Makita</label>
                         </li>
                         <li class="filter-option">
-                            <input type="checkbox" class="visually-hidden filter-input filter-input-checkbox" id="dewalt">
-                            <label for="bosch">Dewalt</label>
+                            <input type="checkbox" class="visually-hidden filter-input filter-input-checkbox" name="dewalt" id="dewalt">
+                            <label for="dewalt">Dewalt</label>
                         </li>
                         <li class="filter-option">
-                            <input type="checkbox" class="visually-hidden filter-input filter-input-checkbox" id="hitachi">
-                            <label for="bosch">Hitachi</label>
+                            <input type="checkbox" class="visually-hidden filter-input filter-input-checkbox" name="hitachi" id="hitachi">
+                            <label for="hitachi">Hitachi</label>
                         </li>
                     </ul>
                 </fieldset>
@@ -329,7 +330,7 @@
             <a href="#" class="cart-buy-btn">Оформить заказ</a>
             <a href="#" class="cart-cont-btn">Продолжить покупки</a>
         </div>
-        <button type="button" class="cart-close">X</button>
+        <button type="button" class="cart-close" aria-label="закрыть окно"></button>
     </section>
 
 </body>

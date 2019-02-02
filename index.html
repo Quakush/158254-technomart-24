@@ -12,8 +12,9 @@
         <div class="user-navigation">
             <h2 class="visually-hidden">Навигация пользователя</h2>
             <a class="logo btn">Техномарт</a>
-            <form class="search-nav" action="#" method="post">
-                <input type="search" class="search" name="search" value="">
+            <form class="search-nav" action="#" method="GET">
+                <input type="search" class="search" name="search" value="" placeholder="поиск">
+                <button type="submit" class="search-btn">Найти</button>
             </form>
             <div class="bookmarks">Закладки: <span class="total">0</span></div>
             <div class="cart">Корзина: <span class="total">0</span></div>
@@ -198,7 +199,7 @@
                 <ul class="service-menu">
                     <li><a href="#" class="active">Доставка</a></li>
                     <li><a href="#">Гарантия</a></li>
-                    <li><a href="№">Кредит</a></li>
+                    <li><a href="#">Кредит</a></li>
                 </ul>
                 <ul class="service-slider">
                     <li class="delivery">
@@ -289,7 +290,7 @@
     </footer>
 
     <section class="write-us hidden">
-        <form action="#" class="write-us-form" method="post">
+        <form action="#" class="write-us-form" method="GET">
             <p class="write-us-form-item">
                 <label for="name">Ваше имя:</label>
                 <input type="text" id="name" name="name" placeholder="Имя Фамилия" value="">
@@ -301,7 +302,7 @@
                 <textarea id="letter" placeholder="В свободной форме"></textarea>
             </p>
             <button type="submit">Отправить</button>
-            <button type="button" class="close-btn">X</button>
+            <button type="button" class="close-btn" aria-label="закрыть окно"></button>
         </form>
     </section>
 
