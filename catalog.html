@@ -4,14 +4,18 @@
 <head>
     <meta charset="utf-8">
     <title>HTML Academy: Техномарт</title>
+    <link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i|PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
 </head>
 
 <body>
 
     <header class="main-header">
         <div class="user-navigation">
+            <div class="wrapper">
             <h2 class="visually-hidden">Навигация пользователя</h2>
-            <a href="index.html" class="logo btn">Техномарт</a>
+            <a href="index.html"><img src="img/logo-technomart.svg"></a>
             <form class="search-nav" action="#" method="GET">
                 <input type="search" class="search" name="search" value="" placeholder="поиск">
                 <button type="submit" class="search-btn">Найти</button>
@@ -19,8 +23,10 @@
             <div class="bookmarks">Закладки: <span class="total">0</span></div>
             <div class="cart not-empty">Корзина: <span class="total">10</span></div>
             <a href="#" class="buy">Оформить заказ</a>
+            </div>
         </div>
         <div class="info">
+            <div class="wrapper">
             <h2 class="visually-hidden">Информация о контактах</h2>
             <div class="title">
                 <h1>Интернет-магазин строительных материалов и инструментов для ремонта.</h1>
@@ -30,17 +36,21 @@
                 <p class="address"></p>
             </div>
             <div class="logged-in">
-                <div class="deauhtorization">
+                <div class="deauthorization">
                     <a href="#" class="user">Равшан Джамшутович</a>
                     <a href="#" class="exit">Выход</a>
                 </div>
+                <div class="logged-links">
                 <a href="#">Мои заказы</a>
                 <a href="#">Личный кабинет</a>
+                </div>
+            </div>
             </div>
         </div>
+        <div class="wrapper">
         <nav class="main-navigation">
-            <ul class="navigation">
-                <li><a href="#">Главная</a></li>
+            <ul class="navigation-list">
+                <li><a href="index.html">Главная</a></li>
                 <li><a href="#">Компания</a></li>
                 <li><a class="active">Каталог</a></li>
                 <li><a href="#">Новости</a></li>
@@ -49,13 +59,15 @@
                 <li><a href="#">Контакты</a></li>
             </ul>
         </nav>
+        </div>
     </header>
     <main class="catalog-page">
-        <ul>
+        <div class="wrapper">
+        <ul class="breadcrumbs">
             <li><a href="index.html">Главная</a></li>
             <li><a href="#">Каталог</a></li>
             <li><a href="#">Инструмент</a></li>
-            <li>Перфораторы</li>
+            <li><a>Перфораторы</a></li>
         </ul>
         <h2 class="catalog-title-header">Перфораторы</h2>
 
@@ -67,7 +79,7 @@
                 </fieldset>
                 <fieldset>
                     <legend>Производители:</legend>
-                    <ul>
+                    <ul class="filter-list">
                         <li class="filter-option">
                             <input type="checkbox" class="visually-hidden filter-input filter-input-checkbox" name="bosch" id="bosch" checked>
                             <label for="bosch">Bosch</label>
@@ -92,7 +104,7 @@
                 </fieldset>
                 <fieldset>
                     <legend>Питание:</legend>
-                    <ul>
+                    <ul class="filter-list">
                         <li class="filter-option">
                             <input type="radio" class="visually-hidden filter-input filter-input-radio" name="power-group" value="dc" id="dc" checked>
                             <label for="dc">Аккумуляторные</label>
@@ -111,8 +123,8 @@
             <h2 class="visually-hidden">Каталог товаров</h2>
             <div class="sort-title">
                 <p>Сортировка:</p>
-                <ul>
-                    <li><a href="#" class="current>">По цене</a></li>
+                <ul class="shop-sort-list">
+                    <li><a href="#" class="select">По цене</a></li>
                     <li><a href="#">По типу</a></li>
                     <li><a href="#">По функционалу</a></li>
                 </ul>
@@ -270,23 +282,25 @@
                 <li><a class="pagination-item" href="">Следующая</a></li>
             </ul>
         </section>
+        </div>
 
         <section class="description">
+            <div class="wrapper">
             <h2>Пара слов о перфораторах</h2>
             <p>Перфоратор - универсальный строительный инструмент. Предназначен для сверления и долбления отверстий в кирпиче, бетоне и камне. Существуют электромеханические и пневматические перфораторы. Современные модеои могут выполнять функции дрели,
                 шуруповерта и отбойного молотка. В ассортиментном ряду есть выбор &laquo;трехрежимников&raquo;: в одном устройстве будут совмещены отбойный молоток и ударная дрель.</p>
+            </div>
         </section>
 
     </main>
 
     <footer class="main-footer">
-
-        <div class="footer-address">
+        <div class="wrapper">
+            <div class="footer-address">
             <h2 class="visually-hidden">Адресный блок</h2>
-            <a class="logo btn">Техномарт</a>
+            <a href="index.html"><img src="img/logo-technomart.svg" class="logo"></a>
             <p>г.Санкт-Петербург, ул.Б.Конюшенная, д.19/8</p>
             <p>+7(812)555-05-55</p>
-
         </div>
 
         <div class="footer-navigation">
@@ -309,8 +323,9 @@
                 </ul>
             </nav>
         </div>
-
+        </div>
         <div class="footer-links">
+            <div class="wrapper">
             <h2 class="visually-hidden">Обраная связь</h2>
             <p class="copuright">&copy; 2010-2017 Компания &laquo;Техномарт&raquo; Все права защищены</p>
             <ul class="social">
@@ -321,7 +336,7 @@
             <p class="email">Обратная связь:<a href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a></p>
             <p class="academy">Разработано -<a href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru</a></p>
         </div>
-
+        </div>
     </footer>
 
     <section class="cart hidden">

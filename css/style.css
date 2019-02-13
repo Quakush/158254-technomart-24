@@ -1,0 +1,660 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-width: 940px;
+    font-family: "Cuprum", "Arial", sans-serif;
+    font-size: 18px;
+    line-height: 18px;
+    background-color: #ffffff;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 18px;
+    color: #ffffff;
+    font-family: "Cuprum";
+    font-weight: 400;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.wrapper {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.btn {
+    background-color: #ed3543;
+}
+
+.not-empty {
+    background-color: #ed3543;
+}
+
+.main-header {
+    background-color: #f3f7f9;
+}
+
+.user-navigation {
+    width: 100%;
+    font-family: "Cuprum";
+    font-size: 17px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #ffffff;
+    background-color: #293349;
+}
+
+.logo {
+    background-color: #ed3543;
+}
+
+.buy {
+    color: #ffffff;
+    background-color: #62a63d;
+}
+
+.info .title {
+    font-family: "Cuprum";
+    font-weight: 400;
+    font-style: italic;
+    font-size: 16px;
+    line-height: 23px;
+    color: #ee3643;
+}
+
+.contacts .number {
+    font-size: 21px;
+    line-height: 21px;
+    color: #ee3643;
+    font-family: "Cuprum";
+    font-weight: 400;
+    border: 2px solid #ffffff;
+}
+
+.contacts .address {
+    font-size: 14px;
+    line-height: 24px;
+    color: #32425c;
+    font-family: "Cuprum";
+    font-weight: 400;
+}
+
+.sign-in a {
+    font-size: 21px;
+    line-height: 21px;
+    color: #000000;
+    font-family: "Cuprum";
+    font-weight: 400;
+    background-color: #ffffff;
+}
+
+.deauthorization {
+    background-color: #ffffff;
+}
+
+.deauthorization .user {
+    font-size: 21px;
+    line-height: 21px;
+    color: #000000;
+    font-family: "Cuprum";
+    font-weight: 400;
+    text-transform: none;
+}
+
+.logged-links a {
+    font-size: 16px;
+    line-height: 18px;
+    color: #32425c;
+    font-family: "Cuprum";
+    font-weight: 400;
+    text-transform: none;
+    text-decoration: underline;
+}
+
+.main-navigation {
+    background-color: #31415b;
+}
+
+.main-navigation a {
+    font-size: 17px;
+    line-height: 17px;
+    color: #ffffff;
+    font-family: "Cuprum";
+    font-weight: 400;  
+}
+
+.navigation-list {
+    list-style: none;
+}
+
+.offers-list {
+    list-style: none;
+}
+
+.offers-list h3 {
+    font-size: 24px;
+    line-height: 30px;
+    color: #ffffff;
+    font-family: "Cuprum";
+    font-weight: 700;
+}
+
+.offers-list a {
+    font-size: 14px;
+    line-height: 18px;
+    color: #ffffff;
+    font-family: "Cuprum";
+    font-weight: 400;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.material {
+    background-color: #ffbf47;
+}
+
+.tool {
+    background-color: #3bbbe2;
+}
+
+.technics {
+    background-color: #db90d8;
+}
+
+.discount {
+    background-color: #8dd68e;
+}
+
+.delivery {
+    background-color: #ffbf47;
+}
+
+.offers-slider {
+    width: 620px;
+    height: 265px;
+    list-style: none;
+    background-image: url("../img/slider1.jpg");
+}
+
+.offers-slider-item a {
+    font-size: 14px;
+    line-height: 18px;
+    color: #ffffff;
+    font-family: "Cuprum";
+    font-weight: 400;
+}
+
+.offers-slider-title h3 {
+    font-size: 36px;
+    line-height: 36px;
+    color: #ffffff;
+    font-family: "Cuprum";
+    font-weight: 700;
+}
+
+.offers-slider-title p {
+    font-size: 18px;
+    line-height: 24px;
+    color: #ffffff;
+    font-family: "Cuprum";
+    font-weight: 400;
+}
+
+.popular-title,
+.brands-title,
+.catalog-title-header {
+    background-color: #f9f5f0;
+}
+
+.popular-title h2,
+.brands-title h2,
+.catalog-title-header {
+    font-size: 30px;
+    line-height: 30px;
+    color: #32425c;
+    font-family: "Cuprum";
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.popular-title a,
+.brands-title {
+    font-size: 14px;
+    line-height: 18px;
+    color: #ffffff;
+    font-family: "Cuprum";
+    font-weight: 400;
+}
+
+.popular-list {
+    list-style: none;
+}
+
+.popular-about h3,
+.shop-about h3 {
+    font-size: 18px;
+    line-height: 20px;
+    color: #000000;
+    font-family: "PT Sans";
+    font-weight: 700;
+}
+
+.popular-about .old-price,
+.shop-about .old-price {
+    font-size: 17px;
+    line-height: 18px;
+    text-decoration: line-through;
+    color: #a9a9a9;
+    font-family: "PT Sans";
+    font-weight: 700;
+}
+
+.popular-about .new-price,
+.shop-about .new-price {
+    font-size: 17px;
+    line-height: 18px;
+    color: #ffffff;
+    font-family: "PT Sans";
+    font-weight: 700;
+    background-color: #ee3643;
+}
+
+.popular-action button,
+.shop-action button {
+    font-size: 14px;
+    line-height: 18px;
+    color: #32425c;
+    font-family: "Cuprum";
+    font-weight: 400;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.popular-action .buy-btn,
+.shop-action .buy-btn {
+    border: none;
+    background-color: #63a53d;
+} 
+
+.popular-action .bookmarks-btn,
+.shop-action .bookmarks-btn {
+    border: 2px solid #63a53d;
+    background-color: #ffffff;
+}
+
+.shop-list {
+    list-style: none;
+}
+
+.sort-title a {
+    font-size: 13px;
+    line-height: 18px;
+    color: #aca9a5;
+    font-family: "PT Sans";
+    font-weight: 400;
+    border-bottom: 1px dotted #ed3543;
+}
+
+.sort-title .select {
+    color: #ed3543;
+    border: none;
+}
+
+.sort-title {
+    background-color: #f7f2ec;
+}
+
+.sort-title ul {
+    list-style: none;
+}
+
+.brands-list {
+    list-style: none;
+}
+
+.service {
+    background-color: #f4f7f9;
+}
+
+.service h2 {
+    font-size: 30px;
+    line-height: 30px;
+    color: #000000;
+    font-family: "Cuprum";
+    font-weight: 400;
+}
+
+.service p {
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+    font-family: "Cuprum";
+    font-weight: 400;
+}
+
+.service .service-title {
+    font-size: 36px;
+    line-height: 36px;
+    color: #32425c;
+    font-family: "Cuprum";
+    font-weight: 400;
+}
+
+.service-menu,
+.service-slider {
+    list-style: none;
+}
+
+.service-menu a {
+    display: block;
+    font-size: 21px;
+    line-height: 30px;
+    font-family: "Cuprum";
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #31415b;
+}
+
+a.active {
+    color: #31415b;
+    background-color: #ffffff;
+}
+
+.information h3 {
+    font-size: 30px;
+    line-height: 30px;
+    color: #000000;
+    font-family: "Cuprum";
+    font-weight: 400;
+}
+
+.information p {
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+    font-family: "Cuprum";
+    font-weight: 400;
+}
+
+.information ul {
+    list-style: none;
+}
+
+.company-list li {
+    font-size: 18px;
+    line-height: 20px;
+    color: #000000;
+    font-family: "Cuprum";
+    font-weight: 400;
+}
+
+.write {
+    font-size: 14px;
+    line-height: 18px;
+    color: #ffffff;
+    font-family: "Cuprum";
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.breadcrumbs {
+    list-style: none;
+}
+
+.breadcrumbs a {
+    font-size: 13px;
+    line-height: 18px;
+    color: #000000;
+    font-family: "PT Sans";
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.filter h2,
+.shop p {
+    font-size: 13px;
+    line-height: 18px;
+    color: #000000;
+    font-family: "PT Sans";
+    font-weight: 400;
+    text-transform: uppercase;
+    background-color: #f7f3ec;
+}
+
+.filter-form legend {
+    font-size: 17px;
+    line-height: 30px;
+    color: #000000;
+    font-family: "PT Sans";
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.filter-form fieldset {
+    border: none;
+}
+
+.filter-list {
+    list-style: none;
+}
+
+.filter-form .filter-form-btn {
+    font-size: 13px;
+    line-height: 18px;
+    color: #000000;
+    font-family: "PT Sans";
+    font-weight: 400;
+    text-transform: uppercase;
+    background-color: #ffffff;
+    border: 1px solid #e5e5e5;
+}
+
+.pagination {
+    list-style: none;
+}
+
+.pagination .pagination-item {
+    display: block;
+    font-size: 13px;
+    line-height: 18px;
+    color: #000000;
+    font-family: "PT Sans";
+    font-weight: 400;
+    text-transform: uppercase;
+    border: 1px solid #e5e5e5;
+    background-color: #ffffff;
+}
+
+.pagination .current {
+    background-color: #ed3543;
+}
+
+.description {
+    background-color: #f2f6f8;
+}
+
+.description h2 {
+    font-size: 30px;
+    line-height: 30px;
+    color: #000000;
+    font-family: "Cuprum";
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.description p {
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+    font-family: "Cuprum";
+    font-weight: 400;
+}
+
+.main-footer {
+    background-color: #31415b;
+}
+
+.footer-links {
+    background-color: #293349;
+}
+
+.footer-address p {
+    font-size: 18px;
+    line-height: 24px;
+    color: #f3f7f9;
+    font-family: "Cuprum";
+    font-weight: 400;
+}
+
+.footer-main-navigation ul,
+.product-navigation ul {
+    list-style: none;
+}
+
+.footer-main-navigation a {
+    font-size: 18px;
+    line-height: 24px;
+    color: #f3f7f9;
+    font-family: "Cuprum";
+    font-weight: 400;
+    text-transform: none;
+}
+
+.product-navigation a {
+    font-size: 18px;
+    line-height: 24px;
+    color: #ffd180;
+    font-family: "Cuprum";
+    font-weight: 400;
+    text-transform: none;
+}
+
+.copyright {
+    font-size: 16px;
+    line-height: 18px;
+    color: #ffffff;
+    font-family: "Cuprum";
+    font-weight: 400;
+}
+
+.social {
+    list-style: none;
+}
+
+.email,
+.academy {
+    font-size: 16px;
+    line-height: 18px;
+    color: #ffffff;
+    font-family: "Cuprum";
+    font-weight: 400;
+}
+
+.email a,
+.academy a {
+    font-size: 16px;
+    line-height: 18px;
+    color: #ffd180;
+    font-family: "Cuprum";
+    font-weight: 400;
+    text-transform: none;
+}
+
+.write-us-form {
+    background-color: #f3f3f3; 
+}
+
+.write-us-form-item {
+    background-color: #ffffff;
+}
+
+.write-us-form-item label {
+    font-size: 18px;
+    line-height: 18px;
+    color: #000000;
+    font-family: "Cuprum";
+    font-weight: 400; 
+}
+
+.write-us-form-item input,
+.write-us-form-item textarea {
+    border: 2px solid #dee2e4;
+}
+
+.write-us-form-item input::placeholder,
+.write-us-form-item textarea::placeholder {
+    font-size: 13px;
+    line-height: 18px;
+    color: #a9a9a9;
+    font-family: "PT Sans";
+    font-weight: 400;
+}
+
+.write-us-form button {
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 18px;
+    color: #ffffff;
+    font-family: "Cuprum";
+    font-weight: 400;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: #ed3543;
+    border: none;
+}
+
+.map {
+    width: 970px;
+    height: 476px;
+    background-image: url("../img/map.jpg");
+}
+
+.cart {
+    background-color: #ffffff;
+}
+
+.cart-header {
+    font-size: 30px;
+    line-height: 30px;
+    color: #000000;
+    font-family: "Cuprum";
+    font-weight: 400;
+}
+
+.cart-footer {
+    background-color: #f1f1f1;
+}
+
+.cart-footer a {
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+    font-family: "Cuprum";
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.cart-buy-btn {
+    color: #ffffff;
+    background-color: #ed3543;
+}
+
+.cart-cont-btn {
+    background-color: #ffffff;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
