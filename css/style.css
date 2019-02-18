@@ -15,9 +15,6 @@ a {
     color: #ffffff;
     text-decoration: none;
     font-size: 14px;
-    line-height: 18px;
-    color: #ffffff;
-    font-family: "Cuprum";
     font-weight: 400;
     text-transform: uppercase;
     cursor: pointer;
@@ -42,9 +39,7 @@ a {
 
 .user-navigation {
     width: 100%;
-    font-family: "Cuprum";
     font-size: 17px;
-    line-height: 18px;
     font-weight: 400;
     color: #ffffff;
     background-color: #293349;
@@ -59,11 +54,10 @@ a {
     background-color: #62a63d;
 }
 
-.info .title {
-    font-family: "Cuprum";
+.info h1 {
+    font-size: 16px;
     font-weight: 400;
     font-style: italic;
-    font-size: 16px;
     line-height: 23px;
     color: #ee3643;
 }
@@ -72,7 +66,6 @@ a {
     font-size: 21px;
     line-height: 21px;
     color: #ee3643;
-    font-family: "Cuprum";
     font-weight: 400;
     border: 2px solid #ffffff;
 }
@@ -81,7 +74,6 @@ a {
     font-size: 14px;
     line-height: 24px;
     color: #32425c;
-    font-family: "Cuprum";
     font-weight: 400;
 }
 
@@ -89,8 +81,8 @@ a {
     font-size: 21px;
     line-height: 21px;
     color: #000000;
-    font-family: "Cuprum";
     font-weight: 400;
+    text-transform: none;
     background-color: #ffffff;
 }
 
@@ -102,16 +94,13 @@ a {
     font-size: 21px;
     line-height: 21px;
     color: #000000;
-    font-family: "Cuprum";
     font-weight: 400;
     text-transform: none;
 }
 
 .logged-links a {
     font-size: 16px;
-    line-height: 18px;
     color: #32425c;
-    font-family: "Cuprum";
     font-weight: 400;
     text-transform: none;
     text-decoration: underline;
@@ -125,8 +114,8 @@ a {
     font-size: 17px;
     line-height: 17px;
     color: #ffffff;
-    font-family: "Cuprum";
-    font-weight: 400;  
+    font-weight: 400; 
+    text-transform: none; 
 }
 
 .navigation-list {
@@ -141,15 +130,12 @@ a {
     font-size: 24px;
     line-height: 30px;
     color: #ffffff;
-    font-family: "Cuprum";
     font-weight: 700;
 }
 
 .offers-list a {
     font-size: 14px;
-    line-height: 18px;
     color: #ffffff;
-    font-family: "Cuprum";
     font-weight: 400;
     background-color: rgba(0, 0, 0, 0.1);
 }
@@ -183,9 +169,7 @@ a {
 
 .offers-slider-item a {
     font-size: 14px;
-    line-height: 18px;
     color: #ffffff;
-    font-family: "Cuprum";
     font-weight: 400;
 }
 
@@ -193,15 +177,13 @@ a {
     font-size: 36px;
     line-height: 36px;
     color: #ffffff;
-    font-family: "Cuprum";
     font-weight: 700;
+    text-transform: uppercase;
 }
 
 .offers-slider-title p {
-    font-size: 18px;
     line-height: 24px;
     color: #ffffff;
-    font-family: "Cuprum";
     font-weight: 400;
 }
 
@@ -217,7 +199,6 @@ a {
     font-size: 30px;
     line-height: 30px;
     color: #32425c;
-    font-family: "Cuprum";
     font-weight: 400;
     text-transform: uppercase;
 }
@@ -225,9 +206,7 @@ a {
 .popular-title a,
 .brands-title {
     font-size: 14px;
-    line-height: 18px;
     color: #ffffff;
-    font-family: "Cuprum";
     font-weight: 400;
 }
 
@@ -237,29 +216,26 @@ a {
 
 .popular-about h3,
 .shop-about h3 {
-    font-size: 18px;
     line-height: 20px;
     color: #000000;
-    font-family: "PT Sans";
+    font-family: "PT Sans", "Arial", sans-serif;
     font-weight: 700;
 }
 
 .popular-about .old-price,
 .shop-about .old-price {
     font-size: 17px;
-    line-height: 18px;
     text-decoration: line-through;
     color: #a9a9a9;
-    font-family: "PT Sans";
+    font-family: "PT Sans", "Arial", sans-serif;
     font-weight: 700;
 }
 
 .popular-about .new-price,
 .shop-about .new-price {
     font-size: 17px;
-    line-height: 18px;
     color: #ffffff;
-    font-family: "PT Sans";
+    font-family: "PT Sans", "Arial", sans-serif;
     font-weight: 700;
     background-color: #ee3643;
 }
@@ -267,9 +243,7 @@ a {
 .popular-action button,
 .shop-action button {
     font-size: 14px;
-    line-height: 18px;
     color: #32425c;
-    font-family: "Cuprum";
     font-weight: 400;
     text-transform: uppercase;
     cursor: pointer;
@@ -293,9 +267,8 @@ a {
 
 .sort-title a {
     font-size: 13px;
-    line-height: 18px;
     color: #aca9a5;
-    font-family: "PT Sans";
+    font-family: "PT Sans", "Arial", sans-serif;
     font-weight: 400;
     border-bottom: 1px dotted #ed3543;
 }
@@ -325,15 +298,14 @@ a {
     font-size: 30px;
     line-height: 30px;
     color: #000000;
-    font-family: "Cuprum";
     font-weight: 400;
+    text-transform: uppercase;
 }
 
 .service p {
-    font-size: 18px;
+    font-size: 13px;
     line-height: 24px;
     color: #000000;
-    font-family: "Cuprum";
     font-weight: 400;
 }
 
@@ -341,7 +313,6 @@ a {
     font-size: 36px;
     line-height: 36px;
     color: #32425c;
-    font-family: "Cuprum";
     font-weight: 400;
 }
 
@@ -354,9 +325,9 @@ a {
     display: block;
     font-size: 21px;
     line-height: 30px;
-    font-family: "Cuprum";
     font-weight: 700;
     color: #ffffff;
+    text-transform: none;
     background-color: #31415b;
 }
 
@@ -369,15 +340,13 @@ a.active {
     font-size: 30px;
     line-height: 30px;
     color: #000000;
-    font-family: "Cuprum";
     font-weight: 400;
 }
 
 .information p {
-    font-size: 18px;
+    font-size: 13px;
     line-height: 24px;
     color: #000000;
-    font-family: "Cuprum";
     font-weight: 400;
 }
 
@@ -386,18 +355,14 @@ a.active {
 }
 
 .company-list li {
-    font-size: 18px;
     line-height: 20px;
     color: #000000;
-    font-family: "Cuprum";
     font-weight: 400;
 }
 
 .write {
     font-size: 14px;
-    line-height: 18px;
     color: #ffffff;
-    font-family: "Cuprum";
     font-weight: 400;
     text-transform: uppercase;
 }
@@ -408,9 +373,8 @@ a.active {
 
 .breadcrumbs a {
     font-size: 13px;
-    line-height: 18px;
     color: #000000;
-    font-family: "PT Sans";
+    font-family: "PT Sans", "Arial", sans-serif;
     font-weight: 400;
     text-transform: uppercase;
 }
@@ -418,9 +382,8 @@ a.active {
 .filter h2,
 .shop p {
     font-size: 13px;
-    line-height: 18px;
     color: #000000;
-    font-family: "PT Sans";
+    font-family: "PT Sans", "Arial", sans-serif;
     font-weight: 400;
     text-transform: uppercase;
     background-color: #f7f3ec;
@@ -430,8 +393,17 @@ a.active {
     font-size: 17px;
     line-height: 30px;
     color: #000000;
-    font-family: "PT Sans";
+    font-family: "PT Sans", "Arial", sans-serif;
     font-weight: 700;
+    text-transform: uppercase;
+}
+
+.filter-form label {
+    font-size: 15px;
+    line-height: 20px;
+    color: #000000;
+    font-family: "PT Sans", "Arial", sans-serif;
+    font-weight: 400;
     text-transform: uppercase;
 }
 
@@ -445,9 +417,8 @@ a.active {
 
 .filter-form .filter-form-btn {
     font-size: 13px;
-    line-height: 18px;
     color: #000000;
-    font-family: "PT Sans";
+    font-family: "PT Sans", "Arial", sans-serif;
     font-weight: 400;
     text-transform: uppercase;
     background-color: #ffffff;
@@ -461,9 +432,8 @@ a.active {
 .pagination .pagination-item {
     display: block;
     font-size: 13px;
-    line-height: 18px;
     color: #000000;
-    font-family: "PT Sans";
+    font-family: "PT Sans", "Arial", sans-serif;
     font-weight: 400;
     text-transform: uppercase;
     border: 1px solid #e5e5e5;
@@ -482,16 +452,14 @@ a.active {
     font-size: 30px;
     line-height: 30px;
     color: #000000;
-    font-family: "Cuprum";
     font-weight: 400;
     text-transform: uppercase;
 }
 
 .description p {
-    font-size: 18px;
+    font-size: 13px;
     line-height: 24px;
     color: #000000;
-    font-family: "Cuprum";
     font-weight: 400;
 }
 
@@ -504,10 +472,8 @@ a.active {
 }
 
 .footer-address p {
-    font-size: 18px;
     line-height: 24px;
     color: #f3f7f9;
-    font-family: "Cuprum";
     font-weight: 400;
 }
 
@@ -517,28 +483,22 @@ a.active {
 }
 
 .footer-main-navigation a {
-    font-size: 18px;
     line-height: 24px;
     color: #f3f7f9;
-    font-family: "Cuprum";
     font-weight: 400;
     text-transform: none;
 }
 
 .product-navigation a {
-    font-size: 18px;
     line-height: 24px;
     color: #ffd180;
-    font-family: "Cuprum";
     font-weight: 400;
     text-transform: none;
 }
 
 .copyright {
     font-size: 16px;
-    line-height: 18px;
     color: #ffffff;
-    font-family: "Cuprum";
     font-weight: 400;
 }
 
@@ -549,18 +509,14 @@ a.active {
 .email,
 .academy {
     font-size: 16px;
-    line-height: 18px;
     color: #ffffff;
-    font-family: "Cuprum";
     font-weight: 400;
 }
 
 .email a,
 .academy a {
     font-size: 16px;
-    line-height: 18px;
     color: #ffd180;
-    font-family: "Cuprum";
     font-weight: 400;
     text-transform: none;
 }
@@ -574,10 +530,7 @@ a.active {
 }
 
 .write-us-form-item label {
-    font-size: 18px;
-    line-height: 18px;
     color: #000000;
-    font-family: "Cuprum";
     font-weight: 400; 
 }
 
@@ -589,18 +542,15 @@ a.active {
 .write-us-form-item input::placeholder,
 .write-us-form-item textarea::placeholder {
     font-size: 13px;
-    line-height: 18px;
     color: #a9a9a9;
-    font-family: "PT Sans";
+    font-family: "PT Sans", "Arial", sans-serif;
     font-weight: 400;
 }
 
 .write-us-form button {
     color: #ffffff;
     font-size: 14px;
-    line-height: 18px;
     color: #ffffff;
-    font-family: "Cuprum";
     font-weight: 400;
     text-transform: uppercase;
     cursor: pointer;
@@ -622,7 +572,6 @@ a.active {
     font-size: 30px;
     line-height: 30px;
     color: #000000;
-    font-family: "Cuprum";
     font-weight: 400;
 }
 
@@ -632,9 +581,7 @@ a.active {
 
 .cart-footer a {
     font-size: 14px;
-    line-height: 18px;
     color: #000000;
-    font-family: "Cuprum";
     font-weight: 400;
     text-transform: uppercase;
 }
