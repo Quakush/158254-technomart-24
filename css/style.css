@@ -45,13 +45,29 @@ a {
     background-color: #293349;
 }
 
+.user-navigation .wrapper {
+    display: flex;
+}
+
 .logo {
     background-color: #ed3543;
+}
+
+.search-btn {
+    width: 17px;
+    font-size: 0;
+    border: none;
+    background-color: #293349;
+    vertical-align: middle;
 }
 
 .buy {
     color: #ffffff;
     background-color: #62a63d;
+}
+
+.info {
+    display: flex;
 }
 
 .info h1 {
@@ -119,6 +135,9 @@ a {
 }
 
 .navigation-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     list-style: none;
 }
 
