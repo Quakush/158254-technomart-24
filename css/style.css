@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -9,6 +9,7 @@ body {
     font-size: 18px;
     line-height: 18px;
     background-color: #ffffff;
+    position: relative;
 }
 
 a {
@@ -46,6 +47,8 @@ a {
 }
 
 .user-navigation .wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -67,6 +70,8 @@ a {
 }
 
 .info {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -130,13 +135,17 @@ a {
     font-size: 17px;
     line-height: 17px;
     color: #ffffff;
-    font-weight: 400; 
-    text-transform: none; 
+    font-weight: 400;
+    text-transform: none;
 }
 
 .navigation-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    -ms-flex-pack: distribute;
     justify-content: space-around;
     list-style: none;
 }
@@ -209,6 +218,13 @@ a {
 .popular-title,
 .brands-title,
 .catalog-title-header {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     background-color: #f9f5f0;
 }
 
@@ -223,13 +239,19 @@ a {
 }
 
 .popular-title a,
-.brands-title {
+.brands-title a {
+    display: block;
     font-size: 14px;
     color: #ffffff;
     font-weight: 400;
 }
 
 .popular-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
     list-style: none;
 }
 
@@ -272,7 +294,7 @@ a {
 .shop-action .buy-btn {
     border: none;
     background-color: #63a53d;
-} 
+}
 
 .popular-action .bookmarks-btn,
 .shop-action .bookmarks-btn {
@@ -280,8 +302,34 @@ a {
     background-color: #ffffff;
 }
 
+.shop {
+    width: 700px;
+}
+
 .shop-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
     list-style: none;
+}
+
+.shop-item,
+.popular-item {
+    width: 220px;
+}
+
+.sort-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.shop-sort-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
 }
 
 .sort-title a {
@@ -306,11 +354,22 @@ a {
 }
 
 .brands-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
     list-style: none;
 }
 
 .service {
     background-color: #f4f7f9;
+}
+
+.service .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
 }
 
 .service h2 {
@@ -355,6 +414,12 @@ a.active {
     background-color: #ffffff;
 }
 
+.information .wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
 .information h3 {
     font-size: 30px;
     line-height: 30px;
@@ -387,6 +452,10 @@ a.active {
 }
 
 .breadcrumbs {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     list-style: none;
 }
 
@@ -396,6 +465,21 @@ a.active {
     font-family: "PT Sans", "Arial", sans-serif;
     font-weight: 400;
     text-transform: uppercase;
+}
+
+.catalog-page .wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.filter {
+    width: 220px;
 }
 
 .filter h2,
@@ -444,7 +528,20 @@ a.active {
     border: 1px solid #e5e5e5;
 }
 
+.shop-sort-arrows {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.shop-sort-arrows a {
+    font-size: 0;
+}
+
 .pagination {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     list-style: none;
 }
 
@@ -486,6 +583,12 @@ a.active {
     background-color: #31415b;
 }
 
+.main-footer .wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
 .footer-links {
     background-color: #293349;
 }
@@ -498,6 +601,13 @@ a.active {
 
 .footer-main-navigation ul,
 .product-navigation ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
     list-style: none;
 }
 
@@ -522,7 +632,27 @@ a.active {
 }
 
 .social {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     list-style: none;
+}
+
+.social-link {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 0;
+    background-color: #212939;
 }
 
 .email,
@@ -541,7 +671,7 @@ a.active {
 }
 
 .write-us-form {
-    background-color: #f3f3f3; 
+    background-color: #f3f3f3;
 }
 
 .write-us-form-item {
@@ -550,12 +680,28 @@ a.active {
 
 .write-us-form-item label {
     color: #000000;
-    font-weight: 400; 
+    font-weight: 400;
 }
 
 .write-us-form-item input,
 .write-us-form-item textarea {
     border: 2px solid #dee2e4;
+}
+
+.write-us-form-item input::-webkit-input-placeholder,
+.write-us-form-item textarea::-webkit-input-placeholder {
+    font-size: 13px;
+    color: #a9a9a9;
+    font-family: "PT Sans", "Arial", sans-serif;
+    font-weight: 400;
+}
+
+.write-us-form-item input:-ms-input-placeholder,
+.write-us-form-item textarea:-ms-input-placeholder {
+    font-size: 13px;
+    color: #a9a9a9;
+    font-family: "PT Sans", "Arial", sans-serif;
+    font-weight: 400;
 }
 
 .write-us-form-item input::placeholder,
@@ -578,6 +724,9 @@ a.active {
 }
 
 .map {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 970px;
     height: 476px;
     background-image: url("../img/map.jpg");
@@ -623,4 +772,8 @@ a.active {
     padding: 0;
     clip: rect(0 0 0 0);
     overflow: hidden;
-  }
+}
+
+.hidden {
+    display: none;
+}
