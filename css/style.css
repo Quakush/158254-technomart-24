@@ -53,20 +53,52 @@ a {
 }
 
 .logo {
+    width: 220px;
+    text-align: center;
     background-color: #ed3543;
 }
 
+.search-nav {
+    position: relative;
+}
+
+.search::placeholder {
+    color: white;
+}
+
+.search {
+    width: 270px;
+    background-color: #293349;
+    border: none;
+}
+
 .search-btn {
+    position: absolute;
+    top: 7px;
     width: 17px;
     font-size: 0;
     border: none;
-    background-color: #293349;
+    background-color: transparent;
     vertical-align: middle;
 }
 
+.bookmarks {
+    width: 150px;
+}
+
+.cart-nav {
+    width: 150px;
+}
+
 .buy {
+    width: 150px;
+    font-size: 17px;
+    line-height: 18px;
+    font-weight: normal;
     color: #ffffff;
     background-color: #62a63d;
+    text-transform: none;
+    text-align: center;
 }
 
 .info {
