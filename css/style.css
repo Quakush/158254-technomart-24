@@ -36,6 +36,7 @@ a {
 
 .main-header {
     background-color: #f3f7f9;
+    padding-bottom: 50px;
 }
 
 .user-navigation {
@@ -54,6 +55,8 @@ a {
 
 .logo {
     width: 220px;
+    padding-top: 10px;
+    padding-bottom: 5px;
     text-align: center;
     background-color: #ed3543;
 }
@@ -62,20 +65,32 @@ a {
     position: relative;
 }
 
+.search::-webkit-input-placeholder {
+    color: white;
+}
+
+.search:-ms-input-placeholder {
+    color: white;
+}
+
 .search::placeholder {
     color: white;
 }
 
 .search {
     width: 270px;
+    padding-left: 49px;
+    padding-top: 11px;
+    padding-bottom: 11px;
     background-color: #293349;
     border: none;
 }
 
 .search-btn {
     position: absolute;
-    top: 7px;
-    width: 17px;
+    top: 12px;
+    left: 2px;
+    width: 47px;
     font-size: 0;
     border: none;
     background-color: transparent;
@@ -83,15 +98,29 @@ a {
 }
 
 .bookmarks {
-    width: 150px;
+    width: 133px;
+    padding-top: 10px;
+    padding-left: 17px;
+
+}
+
+.bookmarks svg {
+    margin-right: 9px;
 }
 
 .cart-nav {
-    width: 150px;
+    width: 133px;
+    padding-top: 10px;
+    padding-left: 17px;
+}
+
+.cart-nav svg {
+    margin-right: 13px;
 }
 
 .buy {
     width: 150px;
+    padding-top: 12px;
     font-size: 17px;
     line-height: 18px;
     font-weight: normal;
@@ -115,28 +144,72 @@ a {
     color: #ee3643;
 }
 
+.info .title {
+    width: 267px;
+    padding-left: 53px;
+    padding-top: 39px;
+    padding-bottom: 29px;
+}
+
+.contacts {
+    width: 338px;
+    padding-top: 46px;
+}
+
 .contacts .number {
+    width: 193px;
+    padding-left: 71px;
+    padding-top: 10px;
+    padding-bottom: 8px;
     font-size: 21px;
     line-height: 21px;
     color: #ee3643;
     font-weight: 400;
-    border: 2px solid #ffffff;
+    border: 3px solid #ffffff;
+    background-image: url("../img/icon-phone.svg");
+    background-repeat: no-repeat;
+    background-position: 12px 50%;
 }
 
 .contacts .address {
+    padding-top: 4px;
+    padding-left: 10px;
     font-size: 14px;
     line-height: 24px;
     color: #32425c;
     font-weight: 400;
 }
 
+.sign-in {
+    padding-top: 46px;
+}
+
+.sign-in svg {
+    margin-right: 8px;
+}
+
 .sign-in a {
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 12px;
+    padding-bottom: 11px;
     font-size: 21px;
     line-height: 21px;
     color: #000000;
     font-weight: 400;
     text-transform: none;
     background-color: #ffffff;
+}
+
+.in {
+    width: 108px;
+    padding-left: 15px;
+    margin-right: 5px;
+}
+
+.registration {
+    width: 149px;
+    text-align: center;
 }
 
 .deauthorization {
@@ -160,10 +233,13 @@ a {
 }
 
 .main-navigation {
+    padding: 0 24px;
     background-color: #31415b;
 }
 
 .main-navigation a {
+    display: block;
+    padding: 20px 28px 23px;
     font-size: 17px;
     line-height: 17px;
     color: #ffffff;
@@ -175,56 +251,112 @@ a {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    -ms-flex-pack: distribute;
-    justify-content: space-around;
     list-style: none;
+}
+
+.offers {
+    padding-top: 69px;
+    padding-bottom: 55px;
+}
+
+.offers-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
 }
 
 .offers-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     list-style: none;
 }
 
-.offers-list h3 {
+.offers-list-2 {
+    list-style: none;
+}
+
+.offers-list h3,
+.offers-list-2 h3 {
+    margin-bottom: 13px;
     font-size: 24px;
     line-height: 30px;
     color: #ffffff;
     font-weight: 700;
 }
 
-.offers-list a {
+.offers-list a,
+.offers-list-2 a {
+    display: block;
+    width: 135px;
+    padding: 10px 0;
+    text-align: center;
     font-size: 14px;
     color: #ffffff;
     font-weight: 400;
     background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+}
+
+.offers-item {
+    position: relative;
+    width: 254px;
+    margin-bottom: 20px;
+    padding: 20px 23px 22px;
 }
 
 .material {
-    background-color: #ffbf47;
+    background: #ffbf47 url("../img/icon-1.svg") no-repeat 83% 55%;
 }
 
 .tool {
-    background-color: #3bbbe2;
+    background: #3bbce3 url("../img/icon-2.svg") no-repeat 88% 53%;
 }
 
 .technics {
-    background-color: #db90d8;
+    background: #dc91d8 url("../img/icon-3.svg") no-repeat 86% 50%;
 }
 
 .discount {
-    background-color: #8dd68e;
+    background: #8ed78f url("../img/icon-4.svg") no-repeat 81% 50%;
 }
 
 .delivery {
-    background-color: #ffbf47;
+    background: #ffc047 url("../img/icon-5.svg") no-repeat 86% 55%;
 }
 
 .offers-slider {
-    width: 620px;
-    height: 265px;
     list-style: none;
-    background-image: url("../img/slider1.jpg");
+}
+
+.slider-one {
+    background-image:
+        url("../img/slider1_shadow.png"),
+        url("../img/slider1_mask.png"),
+        url("../img/slider1.jpg");
+    background-repeat: no-repeat;
+    background-position: 100% 0;
+}
+
+.offers-slider-item {
+    width: 620px;
+    height: 266px;
+}
+
+.offers-slider-title {
+    padding-left: 25px;
+    padding-top: 23px;
 }
 
 .offers-slider-item a {
@@ -234,6 +366,7 @@ a {
 }
 
 .offers-slider-title h3 {
+    margin-bottom: 3px;
     font-size: 36px;
     line-height: 36px;
     color: #ffffff;
