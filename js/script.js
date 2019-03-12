@@ -78,7 +78,7 @@ btnShowFeedback.addEventListener('click', function (evt) {
 form.addEventListener('submit', function (evt) {
     if (!nameField.value || !emailField.value || !commentField.value) {
         evt.preventDefault();
-        //feedbackPopup.classList.remove("modal-error");
+        //feedbackPopup.classList.remove('modal-error');
         //feedbackPopup.offsetWidth = feedbackPopup.offsetWidth;
         feedbackPopup.classList.add('modal-error');
     } else {
@@ -94,7 +94,7 @@ window.addEventListener('keydown', function (evt) {
         evt.preventDefault();
         if (feedbackPopup.classList.contains('modal-show')) {
             feedbackPopup.classList.remove('modal-show');
-            feedbackPopup.classList.remove("modal-error");
+            feedbackPopup.classList.remove('modal-error');
         }
     }
 });
